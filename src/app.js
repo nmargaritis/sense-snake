@@ -5,7 +5,7 @@ const lodash = _;
 
 // The delay between calling our tick function. This also handles the snake
 // moving so it should not be too quick
-const tickDelayStart = process.env.SNAKE_TICK_DELAY || 400;
+const tickDelayStart = process.env.SNAKE_TICK_DELAY || 200;
 const tickDelayModifier = process.env.SNAKE_TICK_MODIFIER || 10;
 var tickDelay = tickDelayStart;
 
